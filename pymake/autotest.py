@@ -1,7 +1,11 @@
 import os
 import shutil
 import textwrap
-import numpy as np
+import sys
+
+sys.path.insert(0,'/home/sfletch/software/python/python-3.4.3/lib/python3.4/site-packages/numpy')
+
+from import numpy as np
 
 ignore_ext = ['.hds', '.hed', '.bud', '.cbb', '.cbc',
               '.ddn', '.ucn', '.glo', '.lst', '.list',
